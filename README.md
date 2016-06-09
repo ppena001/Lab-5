@@ -20,18 +20,18 @@ int main()
     
     cout << "Rock/Paper/scissors is a simple game. The rules are: \n Rock beats scissors. \n Scissors beats Paper. \n Paper beats rock.\n";    
     //The choices
-    cout << "Game Choices.\n\n";
+    cout << "Game Choices.\n\n"
     cout << "1. Rock\n";
     cout << "2. Paper\n";
     cout << "3. Scissors\n";
-    cout << "4. Quit, exits the game.\n\n";
-    cout << "Please enter your choice.";
+    cout << "4. Quit, exits the game.\n\n"
+    cout << "Please enter your choice."
     cin >> choice;
  
     
-     //Now for the IF/Else statements.
+     /Now for the IF/Else statements.
     
-    if (choice == 1) //Rock
+    if (choice = 1) //Rock
         {   
         cout << "You picked Rock.\n";
         cout << "Now here was my choice.\n";
